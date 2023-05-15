@@ -1,5 +1,5 @@
 <html lang="en"><head>
-<title>Example of Rounded Corners Box Style</title>
+<title>ClipIt Userpage</title>
 <link rel="stylesheet">
 <style>
     body {
@@ -34,7 +34,7 @@
     ul {
         padding: 0;
         list-style: none;
-        background: white;
+        background: black;
     }
     ul li {
         display: inline-block;
@@ -42,12 +42,12 @@
     ul li a {
         display: block;
         padding: 10px 20px;
-        color: black;
+        color: white;
         text-decoration: none;
     }
     ul li a:hover {
-        color: white;
-        background: black;
+        color: black;
+        background: lightgrey;
     }
 
 </style>
@@ -60,9 +60,11 @@
         </ul>
     </div>
         <div class="box">
-            <h1>  </h1>
+            <h1> Your Profile Page </h1>
             <table>
-            </table>
+    <tbody><tr>
+        <th>Make Post:</th> <th><input type="file"></th>
+            </tr></tbody></table>
         </div>
     <div>&nbsp;</div>
 
